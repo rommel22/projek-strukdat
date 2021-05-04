@@ -3,7 +3,7 @@
 Anggota Kelompok:
 * Rommel Malik Kusandi (140810200002)
 * Jonathan Victor Goklas (140810200024)
-* Fasya Nurina (140810200052)
+* Fasya Nurina Izzati (140810200052)
 ---
 ## Latar Belakang
 Melihat kembali satu tahun yang telah kita lewati, dunia diguncangkan dengan hal buruk yang telah dirasakan satu abad tahun sebelumnya, yaitu pandemi. Pandemi flu spanyol telah merenggut banyak jiwa dan hal tersebut kembali terjadi dengan pandemi baru, pandemi Covid-19. Pandemi Covid-19 ini pertama kali ditemukan di kota Wuhan, China pada akhir Desember 2019. Virus ini menular dengan sangat cepat dan telah menyebar ke hampir semua negara, termasuk Indonesia, hanya dalam waktu beberapa bulan.
@@ -25,6 +25,7 @@ Program ini bertujuan untuk memudahkan pendataan pasien dan juga stok vaksin yan
 
 ## Penjelasan Aplikasi
 Aplikasi ini menggunakan tiga macam struktur data yaitu stack, linked list, dan priority queue. Linked list digunakan untuk menampung semua data pasien yang ingin divaksin. Priority queue digunakan untuk menampung data pasien yang diutamakan dalam penerimaan vaksin, yakni golongan 1 (tenaga medis) prioritas. Stack digunakan sebagai penyimpanan vaksin dimana dapat menunjukkan total jumlah vaksin yang tersedia. Pasien yang diprioritaskan akan masuk ke priority queue terlebih dahulu dan setelah semuanya sudah ada di priority queue, maka program akan melakukan dequeue yang menandakan bahwa pasien tersebut telah divaksin dan juga program akan melakukan pop pada stack menandakan bahwa satu vaksin telah digunakan dan menunjukkan jumlah sisa vaksin. Setelah semua pasien prioritas telah divaksin, maka sisa pasien dimasukkan ke dalam priority queue dan di-dequeue sampai jumlah vaksin habis.
+
 
 ## Gambar Rancangan Antar Muka
 --------------------------------------------------------------------------------------------------------------------------------------------------
