@@ -1,9 +1,9 @@
 #include <iostream>
 #include "test.cpp"
 
-int peek(stack top)
+std::string peek(stack top)
 {
-    return top->noKtp;
+    return top->nama;
 }
 
 bool isEmpty(stack top)
@@ -30,11 +30,16 @@ void createElementStack(nodePtr &newStack)
     std::string alamat;
     int umur;
     int noWork;
-    std::cout << "Masukkan data pasien " << std::endl;
+    // std::cout << "Masukkan data pasien " << std::endl;
+    // std::cout << "Nomor KTP : " << std::endl;
     std::cin >> noKtp;
+    // std::cout << "Nama : " << std::endl;
     std::cin >> nama;
+    // std::cout << "alamat : " << std::endl;
     std::cin >> alamat;
+    // std::cout << "Umur : " << std::endl;
     std::cin >> umur;
+    // std::cout << "Jenis Pekerjaan : " << std::endl;
     std::cin >> noWork;
     newStack = new node;
     newStack->noKtp = noKtp;
@@ -259,6 +264,11 @@ void dequeue(queue &q, list &l)
         delElement->next = nullptr;
     }
     push_back(l, delElement);
+}
+
+std::string peekQ(queue q)
+{
+    return q.head->nama;
 }
 
 void printQueue(queue &q)
